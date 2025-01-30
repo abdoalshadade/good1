@@ -1,0 +1,88 @@
+/* إعدادات عامة */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dde4e7;
+    color: #333;
+    direction: rtl;
+    text-align: center;
+}
+
+/* القسم الأول: الشعار */
+.header {
+    background-color: #002855;
+    padding: 10px 0;
+}
+
+.header .logo {
+    width: 150px;
+}
+
+/* القسم الثاني: التعريف بالمناسبة */
+.section-intro {
+    padding: 20px;
+}
+
+.section-intro h1 {
+    font-size: 2em;
+    color: #002855;
+}
+
+.section-intro p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin: 20px 0;
+}
+
+/* القسم الثالث: الصور */
+.section-images {
+    margin-top: 30px;
+}
+
+.section-images h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.section-images .gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.section-images .gallery img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* القسم الرابع: معلومات إضافية */
+.section-info {
+    background-color: #002855;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.section-info h2 {
+    font-size: 1.5em;
+}
+
+.section-info a {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+.section-info a:hover {
+    text-decoration: underline;
+}
+
+
+.fff{
+    background-color: #06213f;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+}

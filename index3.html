@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الصفحة الرئيسية</title>
+    <link rel="stylesheet" href="stll1.css">
+    <style>
+        /* إعدادات عامة */
+        body {
+            font-family: "Arial", sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            text-align: center;
+            color: #333;
+        }
+
+        /* الرأس */
+        .header {
+            background-color: #004aad;
+            color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 0 0 15px 15px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2.8em;
+        }
+
+        .header p {
+            font-size: 1.3em;
+            margin: 5px 0;
+            color: #cce7ff;
+        }
+
+        /* قسم أسماء الطالبات */
+        .students {
+            background: #fff;
+            margin: 20px auto;
+            padding: 20px;
+            width: 80%;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .students h2 {
+            font-size: 2em;
+            margin-bottom: 15px;
+            color: #004aad;
+        }
+
+        .students ul {
+            list-style: none;
+            padding: 0;
+            text-align: left;
+        }
+
+        .students li {
+            font-size: 1.5em;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #e8f0fe;
+            border: 1px solid #004aad;
+            border-radius: 8px;
+            color: #004aad;
+            text-align: center;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .students li:hover {
+            background-color: #004aad;
+            color: #fff;
+        }
+
+        /* الأزرار للروابط */
+        .back-btn {
+            margin: 30px 0;
+        }
+
+        .back-btn a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #004aad;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 8px;
+            font-size: 1.2em;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-btn a:hover {
+            background-color: #002e73;
+        }
+
+        /* التذييل */
+        .footer {
+            background-color: #002e73;
+            color: #fff;
+            padding: 15px 0;
+            margin-top: 30px;
+            border-radius: 15px 15px 0 0;
+        }
+
+        .footer p {
+            margin: 0;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <!-- العنوان الرئيسي -->
+    <header class="header">
+        <h1>ثاني ثانوي بنات</h1>
+        <p>الشعبة: 2 | الفصل: 2</p>
+        <p>المادة: تقنية رقمية 2</p>
+    </header>
+
+    <!-- قائمة الطالبات -->
+    <main>
+        <section class="students">
+            <h2>أسماء الطالبات</h2>
+            <ul>
+                <li>وعد فارس</li>
+                <li>رشا منصور</li>
+                <li>روجينا مهدي</li>
+                <li>شامه محمد</li>
+                <li>نعمه سيف</li>
+                <li>نوره علي</li>
+                <li>ندى حسين</li>
+            </ul>
+        </section>
+
+        <!-- الروابط -->
+        <div class="back-btn">
+            <a href="index.html">الدخول إلى يوم التأسيس</a>
+            <a href="index2.html">صفحة التنسيقات</a>
+        </div>
+    </main>
+
+    <!-- التذييل -->
+    <footer class="footer">
+        <p>© 2025 - جميع الحقوق محفوظة</p>
+    </footer>
+</body>
+</html>
